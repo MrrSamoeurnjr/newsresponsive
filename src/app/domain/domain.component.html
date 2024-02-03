@@ -1,0 +1,16 @@
+<!-- <p>domain works!</p> -->
+<!-- <p>business works!</p> -->
+<div class="container mt-5">
+    <h4>Top heading</h4>
+    <div class="row">
+        <div *ngFor="let M of topdomainDisplayData" class="col-lg-3">
+            <div class="box">
+                <img src="{{M.urlToImage}}" width="100%" alt="">
+                <h5>{{M.title}}</h5>
+                <a href="{{M.url}}" target="_blank" class="btn btn-dark btn-sm mt-2">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

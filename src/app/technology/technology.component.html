@@ -1,0 +1,13 @@
+<!-- <p>technology works!</p> -->
+<div class="container mt-5">
+    <h4>Top heading</h4>
+    <div class="row">
+        <div *ngFor="let g of techDisplayData" class="col-lg-3">
+            <div class="box">
+                <img src="{{g.urlToImage}}" width="100%" alt="">
+                <h5>{{g.title}}</h5>
+                <a href="{{g.url}}" target="_blank" class="btn btn-dark btn-sm mt-2">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
